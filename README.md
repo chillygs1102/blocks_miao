@@ -1,6 +1,6 @@
 # 快乐消消乐 - 积木游戏
 
-一款类似俄罗斯方块但规则不同的网页小游戏，采用多巴胺配色，清新可爱风格。
+一款类似俄罗斯方块但规则不同的网页小游戏，采用莫兰迪配色，清新淡雅风格。
 
 ## 游戏特性
 
@@ -80,6 +80,32 @@ blocks_miao/
 ## 开发说明
 
 游戏使用原生 JavaScript 开发，无需安装任何依赖。直接修改代码即可进行开发和测试。
+
+### 自定义配置
+
+#### 修改道具出现概率
+
+在 [game.js](game.js) 文件第 4 行修改：
+
+```javascript
+const POWER_UP_CHANCE = 0.05; // 当前为 5%，数值范围 0-1
+```
+
+#### 修改方块配色
+
+在 [style.css](style.css) 文件第 406-412 行修改莫兰迪配色：
+
+```css
+.color-1 { background: linear-gradient(135deg, #EEC1C1 0%, #DC9E9E 100%); }  /* 柔雾粉 */
+.color-2 { background: linear-gradient(135deg, #B2D4CB 0%, #92BDB1 100%); }  /* 清冷薄荷 */
+.color-3 { background: linear-gradient(135deg, #F2DFC0 0%, #E6CDA5 100%); }  /* 燕麦杏色 */
+.color-4 { background: linear-gradient(135deg, #CFC6E3 0%, #BBAED4 100%); }  /* 香芋淡紫 */
+.color-5 { background: linear-gradient(135deg, #C2CEBB 0%, #ACBAA3 100%); }  /* 鼠尾草绿 */
+.color-6 { background: linear-gradient(135deg, #E3DBB0 0%, #D3C99A 100%); }  /* 嫩鹅黄 */
+.color-7 { background: linear-gradient(135deg, #B3C4D6 0%, #99AEC4 100%); }  /* 烟灰蓝 */
+```
+
+共 7 种莫兰迪色系，可根据喜好自定义颜色值。
 
 ## 许可证
 
