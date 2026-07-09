@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>快乐消消乐 - 积木游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="main-content">
+            <div class="game-area">
+                <div class="grid-container" id="grid">
+                    <div class="grid-row">
+                        <div class="cell" data-row="0" data-col="0"></div>
+                        <div class="cell" data-row="0" data-col="1"></div>
+                        <div class="cell" data-row="0" data-col="2"></div>
+                        <div class="cell" data-row="0" data-col="3"></div>
+                        <div class="cell" data-row="0" data-col="4"></div>
+                        <div class="cell" data-row="0" data-col="5"></div>
+                        <div class="cell" data-row="0" data-col="6"></div>
+                        <div class="cell" data-row="0" data-col="7"></div>
+                        <div class="cell" data-row="0" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="1" data-col="0"></div>
+                        <div class="cell" data-row="1" data-col="1"></div>
+                        <div class="cell" data-row="1" data-col="2"></div>
+                        <div class="cell" data-row="1" data-col="3"></div>
+                        <div class="cell" data-row="1" data-col="4"></div>
+                        <div class="cell" data-row="1" data-col="5"></div>
+                        <div class="cell" data-row="1" data-col="6"></div>
+                        <div class="cell" data-row="1" data-col="7"></div>
+                        <div class="cell" data-row="1" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="2" data-col="0"></div>
+                        <div class="cell" data-row="2" data-col="1"></div>
+                        <div class="cell" data-row="2" data-col="2"></div>
+                        <div class="cell" data-row="2" data-col="3"></div>
+                        <div class="cell" data-row="2" data-col="4"></div>
+                        <div class="cell" data-row="2" data-col="5"></div>
+                        <div class="cell" data-row="2" data-col="6"></div>
+                        <div class="cell" data-row="2" data-col="7"></div>
+                        <div class="cell" data-row="2" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="3" data-col="0"></div>
+                        <div class="cell" data-row="3" data-col="1"></div>
+                        <div class="cell" data-row="3" data-col="2"></div>
+                        <div class="cell" data-row="3" data-col="3"></div>
+                        <div class="cell" data-row="3" data-col="4"></div>
+                        <div class="cell" data-row="3" data-col="5"></div>
+                        <div class="cell" data-row="3" data-col="6"></div>
+                        <div class="cell" data-row="3" data-col="7"></div>
+                        <div class="cell" data-row="3" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="4" data-col="0"></div>
+                        <div class="cell" data-row="4" data-col="1"></div>
+                        <div class="cell" data-row="4" data-col="2"></div>
+                        <div class="cell" data-row="4" data-col="3"></div>
+                        <div class="cell" data-row="4" data-col="4"></div>
+                        <div class="cell" data-row="4" data-col="5"></div>
+                        <div class="cell" data-row="4" data-col="6"></div>
+                        <div class="cell" data-row="4" data-col="7"></div>
+                        <div class="cell" data-row="4" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="5" data-col="0"></div>
+                        <div class="cell" data-row="5" data-col="1"></div>
+                        <div class="cell" data-row="5" data-col="2"></div>
+                        <div class="cell" data-row="5" data-col="3"></div>
+                        <div class="cell" data-row="5" data-col="4"></div>
+                        <div class="cell" data-row="5" data-col="5"></div>
+                        <div class="cell" data-row="5" data-col="6"></div>
+                        <div class="cell" data-row="5" data-col="7"></div>
+                        <div class="cell" data-row="5" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="6" data-col="0"></div>
+                        <div class="cell" data-row="6" data-col="1"></div>
+                        <div class="cell" data-row="6" data-col="2"></div>
+                        <div class="cell" data-row="6" data-col="3"></div>
+                        <div class="cell" data-row="6" data-col="4"></div>
+                        <div class="cell" data-row="6" data-col="5"></div>
+                        <div class="cell" data-row="6" data-col="6"></div>
+                        <div class="cell" data-row="6" data-col="7"></div>
+                        <div class="cell" data-row="6" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="7" data-col="0"></div>
+                        <div class="cell" data-row="7" data-col="1"></div>
+                        <div class="cell" data-row="7" data-col="2"></div>
+                        <div class="cell" data-row="7" data-col="3"></div>
+                        <div class="cell" data-row="7" data-col="4"></div>
+                        <div class="cell" data-row="7" data-col="5"></div>
+                        <div class="cell" data-row="7" data-col="6"></div>
+                        <div class="cell" data-row="7" data-col="7"></div>
+                        <div class="cell" data-row="7" data-col="8"></div>
+                    </div>
+                    <div class="grid-row">
+                        <div class="cell" data-row="8" data-col="0"></div>
+                        <div class="cell" data-row="8" data-col="1"></div>
+                        <div class="cell" data-row="8" data-col="2"></div>
+                        <div class="cell" data-row="8" data-col="3"></div>
+                        <div class="cell" data-row="8" data-col="4"></div>
+                        <div class="cell" data-row="8" data-col="5"></div>
+                        <div class="cell" data-row="8" data-col="6"></div>
+                        <div class="cell" data-row="8" data-col="7"></div>
+                        <div class="cell" data-row="8" data-col="8"></div>
+                    </div>
+                    <div class="preview-row" id="preview-row">
+                        <div class="preview-cell" data-col="0"></div>
+                        <div class="preview-cell" data-col="1"></div>
+                        <div class="preview-cell" data-col="2"></div>
+                        <div class="preview-cell" data-col="3"></div>
+                        <div class="preview-cell" data-col="4"></div>
+                        <div class="preview-cell" data-col="5"></div>
+                        <div class="preview-cell" data-col="6"></div>
+                        <div class="preview-cell" data-col="7"></div>
+                        <div class="preview-cell" data-col="8"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="side-panel">
+                <div class="score-board">
+                    <div class="score-item">
+                        <span class="label">积分</span>
+                        <span class="value" id="score">0</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="label">回合</span>
+                        <span class="value" id="round">1</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="label">连击</span>
+                        <span class="value" id="combo">0</span>
+                    </div>
+                </div>
+                
+                <div class="power-ups">
+                    <div class="power-up-item" id="pu-remove-block">
+                        <div class="power-up-icon">🗑️</div>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="power-up-item" id="pu-remove-row">
+                        <div class="power-up-icon">➡️</div>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="power-up-item" id="pu-remove-color">
+                        <div class="power-up-icon">🌈</div>
+                        <span class="count">0</span>
+                    </div>
+                    <div class="power-up-item" id="pu-move-any">
+                        <div class="power-up-icon">✈️</div>
+                        <span class="count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-controls">
+            <div class="control-panel">
+                <div class="action-buttons">
+                </div>
+                <div class="power-up-buttons">
+                    <button class="pu-btn" id="pu-btn-remove-block" title="消除单个积木">🗑️ 消除积木</button>
+                    <button class="pu-btn" id="pu-btn-remove-row" title="消除一行">➡️ 消除行</button>
+                    <button class="pu-btn" id="pu-btn-remove-color" title="消除同色">🌈 消除同色</button>
+                    <button class="pu-btn" id="pu-btn-move-any" title="任意移动">✈️ 任意移动</button>
+                </div>
+            </div>
+            <div class="message-area" id="message">点击积木选中，然后点击目标位置移动</div>
+        </div>
+        
+        <div class="game-over-overlay" id="game-over">
+            <div class="game-over-content">
+                <h2>游戏结束!</h2>
+                <p>最终得分: <span id="final-score">0</span></p>
+                <p>总回合数: <span id="final-round">0</span></p>
+                <button id="btn-restart">重新开始</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
